@@ -1,0 +1,137 @@
+/* 
+ * Reset
+ */
+
+* {
+  background-color: none !important;
+  background-image: none !important;
+  border: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.left-north, .NB-feeds-header-dashboard, .NB-callout-container, .NB-splash-title {
+  display: none !important;
+}
+
+/*
+ * Left pane 
+ */
+
+.left-pane, .NB-feeds-header, .NB-feedlist, .NB-feedlist .feed, .NB-taskbar-container {
+  background-color: #f0f0f0 !important;
+}
+
+.unread_count, .unread_count_positive, .unread_count_neutral, .unread_count_negative {
+  padding: 2px 6px !important;
+  font-family: courier !important;
+  font-weight: normal !important;
+  font-size: 11px !important;
+  color: #666 !important;
+  margin-right: 15px !important;
+  border-radius: 0px !important;
+}
+.unread_count            { background-color: #E0F2FF !important; }
+.unread_count_positive   { background-color: #E0FFEF !important; }
+.unread_count_neutral    { background-color: #F8FFE0 !important; } 
+.unread_count_negative   { background-color: #FFE0E0 !important; }
+
+.NB-feeds-header-wrapper {
+  margin-bottom: 20px !important;
+}
+
+/* feed items*/
+.NB-taskbar .NB-task-title {
+  padding: 7px 22px 0px 0px !important;
+}
+
+/* entries */
+.NB-feeds-header-title {
+  color: #666 !important;
+}
+.NB-taskbar .NB-task-title {
+  text-transform: none;
+  font-weight: bold;
+}
+
+/* icons to links */
+.NB-task-add {
+  padding-top: 8px !important; 
+  background-color: none !important;
+}
+.NB-task-add:before {
+  font-size: 10px;
+  content: "add";
+  display: block;
+  margin-left: -10px;
+}
+.NB-task-manage {
+  padding-top: 8px !important;
+  background-color: none !important;
+}
+.NB-task-manage:before {
+  font-size: 10px !important;
+  content: "set";
+  display: block;
+  margin-left: -20px;
+}
+
+/* intelligence slider */
+.NB-intelligence-slider-red img, .NB-intelligence-slider-yellow img, .NB-intelligence-slider-green img {
+  display: none !important;
+}
+.segmented-control {
+  width: 45px !important;
+  margin-left: 60px !important;
+  border: none !important;
+  margin-top: 3px !important;
+}
+.NB-intelligence-slider li {
+  width: 15px !important;
+  font-size: 10px !important;
+  border: none !important;
+}
+.NB-intelligence-slider-red:after {
+  content: "r";
+}
+.NB-intelligence-slider-yellow:after {
+  content: "y";
+}
+.NB-intelligence-slider-green:after {
+  content: "g";
+}
+
+.ui-layout-resizer-west-open {
+   border-left: 1px solid #ddd !important;
+   -webkit-box-shadow: -2px 0px 3px #aaa !important;
+}
+
+
+/*
+ * Feeds
+ */
+
+.NB-taskbar .NB-task-title {  padding: 7px 22px 0px 0px !important;}
+.NB-feeds-header-title {  color: #666 !important;}
+.NB-taskbar .NB-task-title {  text-transform: none;  font-weight: bold;}
+
+
+/*
+ * Splash
+ */
+
+.NB-splash-top, .NB-splash-bottom {
+  display: none !important;
+}
+
+#NB-splash {
+  margin: 0px !important;
+}
+
+.NB-modules-center {
+  margin-right: 495px !important;
+}
+
+.NB-account {
+  margin-right: 20px !important;
+}
