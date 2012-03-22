@@ -1,6 +1,8 @@
-/* reset */
+/* 
+ * Reset
+ */
+
 * {
-  *  for file open
   background-color: none !important;
   background-image: none !important;
   border: none !important;
@@ -8,21 +10,18 @@
   box-shadow: none !important;
 }
 
-/* hide stuff */
 .left-north, .NB-feeds-header-dashboard, .NB-callout-container, .NB-splash-title {
   display: none !important;
 }
 
-/* 
-  entire left task bar 
-*/
+/*
+ * Left pane 
+ */
 
-/* background color */
 .left-pane, .NB-feeds-header, .NB-feedlist, .NB-feedlist .feed, .NB-taskbar-container {
   background-color: #f0f0f0 !important;
 }
 
-/* unread colors */
 .unread_count, .unread_count_positive, .unread_count_neutral, .unread_count_negative {
   padding: 2px 6px !important;
   font-family: courier !important;
@@ -37,7 +36,6 @@
 .unread_count_neutral    { background-color: #F8FFE0 !important; } 
 .unread_count_negative   { background-color: #FFE0E0 !important; }
 
-/* spacing */
 .NB-feeds-header-wrapper {
   margin-bottom: 20px !important;
 }
@@ -103,11 +101,19 @@
   content: "g";
 }
 
-/* border shadow */
 .ui-layout-resizer-west-open {
    border-left: 1px solid #ddd !important;
    -webkit-box-shadow: -2px 0px 3px #aaa !important;
 }
+
+
+/*
+ * Feeds
+ */
+
+.NB-taskbar .NB-task-title {  padding: 7px 22px 0px 0px !important;}
+.NB-feeds-header-title {  color: #666 !important;}
+.NB-taskbar .NB-task-title {  text-transform: none;  font-weight: bold;}
 
 
 /*
